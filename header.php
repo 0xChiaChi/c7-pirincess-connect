@@ -7,3 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/pixel.css">
 	<link rel="shortcut icon" href="img/title.gif" />
 	<title>公主連結</title>
+	<style>
+	@import url('css/i18n.css');
+	[onclick] {cursor:pointer;}
+	</style>

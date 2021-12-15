@@ -2,10 +2,6 @@
 <html>
 <head>
 	<?php include("header.php"); ?>	
-	<style>
-	@import url('css/i18n.css');
-	[onclick] {cursor:pointer;}
-	</style>
 </head>
 <body>
 <?php include("navbar.php"); ?>	
