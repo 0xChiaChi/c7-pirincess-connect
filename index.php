@@ -1,1 +1,3 @@
-<?php include_once("work_index.html") ?>
+<?php 
+include("header.php");
+include_once("work_index.html") ?>
