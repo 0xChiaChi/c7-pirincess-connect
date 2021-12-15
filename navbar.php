@@ -8,7 +8,7 @@
 	   <div class="collapse navbar-collapse" id="navbar_drop_down">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="work_index.php">首頁</a>
+	        <a class="nav-link" href="index.php">首頁</a>
 	      </li>
 	      <li class="nav-item active">
 	        <a class="nav-link" href="page2.php">抽抽</a>
