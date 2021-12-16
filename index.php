@@ -52,7 +52,7 @@
 		    </div>
 		</div>
 	</div>
-	<?php include("54dd.php"); ?>	
+	<?php include("config.php"); ?>	
 </body>
 </html>
 <script type="text/javascript">
