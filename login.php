@@ -15,8 +15,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         // Store data in session variables
         $_SESSION["loggedin"] = true;
         //這些是之後可以用到的變數
-        $_SESSION["id"] = mysqli_fetch_assoc($result)["id"];
+        // $_SESSION["id"] = mysqli_fetch_assoc($result)["id"];
         $_SESSION["username"] = mysqli_fetch_assoc($result)["username"];
+        header("location:welcome.php");
     }else{
             function_alert("帳號或密碼錯誤"); 
         }
@@ -24,9 +25,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     else{
         function_alert("Something wrong"); 
     }
-
+mysqli_close($link);
     // Close connection
-    mysqli_close($link);
 
 function function_alert($message) { 
       
@@ -36,5 +36,4 @@ function function_alert($message) {
     </script>"; 
     return false;
 } 
-?>
 ?>

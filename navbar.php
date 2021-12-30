@@ -10,7 +10,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 ?>
 <script>
     function validateForm() {
-        var x = document.forms["registerForm"]["password"].value;
+        var x = document.forms["registerForm"]["password-name"].value;
         var y = document.forms["registerForm"]["password_check"].value;
         if(x.length<6){
             alert("密碼長度不足");
