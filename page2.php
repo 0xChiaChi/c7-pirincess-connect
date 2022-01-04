@@ -7,7 +7,7 @@
 <?php include("navbar.php"); ?>	
 	<div class="container">
 		<div class="row no-gutters mb-5"style="width:100%; ">
-			<div class="col" style=" height: 65vh" >
+			<div class="col" style=" height: 50vh" >
 				<img src="img/index_img/background.png"id="getwife" class="d-block w-100 image_center">							
 			</div>
 		</div>
