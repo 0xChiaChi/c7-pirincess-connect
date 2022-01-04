@@ -11,7 +11,7 @@
 				<img src="img/index_img/background.png"id="getwife" class="d-block w-100 image_center">							
 			</div>
 		</div>
-		<p class="w-100"style="text-align: center;">
+		<p class="w-100"style="text-align: center;z-index:3">
 			<input type="button" class="btn btn-info " value="抽老婆ㄌ" onclick="random_wife();">
 		</p>
 	</div>
