@@ -32,19 +32,19 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 	  <div class="collapse navbar-collapse" id="navbar_drop_down">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link clear" i18n=首頁 href="work_index.html">首頁</a>
+	        <a class="nav-link clear" i18n=首頁 href="work_index.php">首頁</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link clear" i18n=抽抽 href="page2.html">抽抽</a>
+	        <a class="nav-link clear" i18n=抽抽 href="page2.php">抽抽</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link clear" i18n=油油紅包 href="page3.html">油油紅包</a>
+	        <a class="nav-link clear" i18n=油油紅包 href="page3.php">油油紅包</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link clear"i18n=點狀圖製作 href="page4.html">點狀圖製作</a>
+	        <a class="nav-link clear"i18n=點狀圖製作 href="page4.php">點狀圖製作</a>
 	      </li>
 	      <li class="nav-item ">
-	        <a class="nav-link clear" i18n=休息一下 href="page5.html">休息一下</a>
+	        <a class="nav-link clear" i18n=休息一下 href="page5.php">休息一下</a>
 	      </li>
 	      <li class="nav-item">
 	        <input type="button" value="登入" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
