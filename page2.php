@@ -2,6 +2,14 @@
 <html>
 <head>
 <?php include("header.php"); ?>	
+<style type="text/css">
+.image_center{
+height: 100%;
+width: 100%;
+object-fit: contain;
+object-position: center;
+}
+</style>
 </head>
 <body>
 <?php include("navbar.php"); ?>	
@@ -11,7 +19,7 @@
 				<img src="img/index_img/background.png"id="getwife" class="d-block w-100 image_center">							
 			</div>
 		</div>
-		<p class="w-100"style="text-align: center;z-index:3">
+		<p class="w-100"style="text-align: center;">
 			<input type="button" class="btn btn-info " value="抽老婆ㄌ" onclick="random_wife();">
 		</p>
 	</div>
