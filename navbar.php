@@ -23,7 +23,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     }
 </script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="work_index.html">
+	  <a class="navbar-brand" href="index.php">
 	    <img src="img/LOGO.jpg" class="button_style">
 	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_drop_down" aria-controls="navbar_drop_down" aria-expanded="false" aria-label="Toggle navigation">
